@@ -1,0 +1,126 @@
+baseURL = "/"
+languageCode = "en-US"
+defaultContentLanguage = "en"
+
+title = "Hugo Learn Documentation"
+theme = "hugo-theme-learn"
+themesdir = "../.."
+metaDataFormat = "yaml"
+defaultContentLanguageInSubdir= true
+
+[params]
+  themeVariant = "mine"
+  editURL = "https://github.com/matcornic/hugo-theme-learn/edit/master/exampleSite/content/"
+  description = "Documentation for Hugo Learn Theme"
+  author = "Mathieu Cornic"
+  showVisitedLinks = true
+  disableBreadcrumb = false
+  disableNextPrev = false
+  disableLandingPageButton = true
+  disableMermaid = false
+  customMermaidURL = "https://unpkg.com/mermaid@8.8.0/dist/mermaid.min.js"
+  titleSeparator = "::"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[Languages]
+[Languages.en]
+title = "Documentation for Hugo Learn Theme"
+weight = 1
+languageName = "English"
+landingPageURL = "/en"
+landingPageName = "<i class='fas fa-home'></i> Home"
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fa-solid fa-globe'></i> Web site"
+identifier = "ws"
+url = "https://www.smartworkz.nl"
+weight = 10
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fa-brands fa-linkedin'></i> LinkedIn"
+identifier = "li"
+url = "https://www.linkedin.com/company/smartworkznl"
+weight = 11
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fa-brands fa-github'></i> GitHub"
+identifier = "gh"
+url = "https://github.com/smartworkz-kyriacos/sagemaker-workshop.git"
+weight = 20
+
+[Languages.fr]
+title = "Documentation du thème Hugo Learn"
+weight = 3
+languageName = "Français"
+landingPageURL = "/fr"
+landingPageName = "<i class='fas fa-home'></i> Accueil"
+
+[[Languages.fr.menu.shortcuts]]
+name = "<i class='fa-solid fa-globe'></i> Web site"
+identifier = "ws"
+url = "https://www.smartworkz.nl"
+weight = 10
+
+[[Languages.fr.menu.shortcuts]]
+name = "<i class='fa-brands fa-linkedin'></i> LinkedIn"
+identifier = "li"
+url = "https://www.linkedin.com/company/smartworkznl"
+weight = 11
+
+[[Languages.fr.menu.shortcuts]]
+name = "<i class='fa-brands fa-github'></i> GitHub"
+identifier = "gh"
+url = "https://github.com/smartworkz-kyriacos/sagemaker-workshop.git"
+weight = 20
+
+[Languages.nl]
+title = "Documentatie voor Hugo Learn Theme"
+weight = 2
+languageName = "Nederland"
+landingPageURL = "/nl"
+landingPageName = "<i class='fas fa-home'></i> Home"
+
+[[Languages.nl.menu.shortcuts]]
+name = "<i class='fa-solid fa-globe'></i> Web site"
+identifier = "ws"
+url = "https://www.smartworkz.nl"
+weight = 10
+
+[[Languages.nl.menu.shortcuts]]
+name = "<i class='fa-brands fa-linkedin'></i> LinkedIn"
+identifier = "li"
+url = "https://www.linkedin.com/company/smartworkznl"
+weight = 11
+
+[[Languages.nl.menu.shortcuts]]
+name = "<i class='fa-brands fa-github'></i> GitHub"
+identifier = "gh"
+url = "https://github.com/smartworkz-kyriacos/sagemaker-workshop.git"
+weight = 20
+
+[Languages.zh]
+title = "Hugo 主题的 Learn 文档"
+weight = 4
+languageName = "简体中文"
+landingPageURL = "/zh"
+landingPageName = "<i class='fas fa-home'></i> 家"
+
+[[Languages.zh.menu.shortcuts]]
+name = "<i class='fa-solid fa-globe'></i> Web site"
+identifier = "ws"
+url = "https://www.smartworkz.nl"
+weight = 10
+
+[[Languages.zh.menu.shortcuts]]
+name = "<i class='fa-brands fa-linkedin'></i> LinkedIn"
+identifier = "li"
+url = "https://www.linkedin.com/company/smartworkznl"
+weight = 11
+
+[[Languages.zh.menu.shortcuts]]
+name = "<i class='fa-brands fa-github'></i> GitHub"
+identifier = "gh"
+url = "https://github.com/smartworkz-kyriacos/sagemaker-workshop.git"
+weight = 20
