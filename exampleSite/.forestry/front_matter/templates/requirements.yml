@@ -11,3 +11,5 @@ fields:
 - type: boolean
   name: disableToc
   label: disableToc
+pages:
+- exampleSite/content/introduction.md
