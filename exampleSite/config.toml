@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://yolov5-sagemaker-workshop.netlify.app"
 languageCode = "en-US"
 defaultContentLanguage = "en"
 
