@@ -11,5 +11,3 @@ fields:
 - type: boolean
   name: disableToc
   label: disableToc
-pages:
-- exampleSite/content/basics/requirements/vereisten.md
