@@ -1,7 +1,7 @@
 ---
 title: Introduction
 weight: "5"
-chapter: true
 
+chapter: true
 ---
 # Introduction
