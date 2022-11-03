@@ -12,4 +12,5 @@ fields:
   name: disableToc
   label: disableToc
 pages:
+- exampleSite/content/Introduction/Scenario/scenario.md
 - exampleSite/content/introduction.md
