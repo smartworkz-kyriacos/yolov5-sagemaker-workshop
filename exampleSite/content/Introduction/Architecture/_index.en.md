@@ -1,7 +1,6 @@
 ---
 title: Architecture
-weight: 6
+weight: "6"
 disableToc: true
-draft: true
 
 ---
